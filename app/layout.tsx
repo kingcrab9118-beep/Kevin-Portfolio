@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Kevin Woo - Full Stack Developer',
   description: 'Recent Bachelor degree graduate from Oregon State University - Cascades Campus with a passion for full-stack development, teamwork, and continuous learning.',
   keywords: ['Full Stack Developer', 'React', 'Vue.js', 'Node.js', 'Django', 'Flask', 'MongoDB', 'PostgreSQL', 'OSU Cascades Graduate', 'Bend Oregon'],
-  authors: [{ name: 'Kevin Woo', email: 'kingcrab9118@gmail.com' }],
+  authors: [{ name: 'Kevin Woo' }],
   openGraph: {
     title: 'Kevin Woo - Full Stack Developer',
     description: 'Recent OSU Cascades graduate passionate about full-stack development',
