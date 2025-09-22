@@ -55,7 +55,7 @@ export default function Projects() {
       image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       technologies: ['React', 'Node.js', 'MongoDB', 'JavaScript'],
       features: ['Collaborative Development', 'Modern Web Practices', 'Full-Stack Implementation', 'Team Collaboration'],
-      github: 'https://github.com/collin-suckow',
+      github: 'https://github.com/kingcrab9118-beep/Collin-Suckow',
       demo: 'https://demo.com',
       category: 'Full Stack',
       icon: Users
@@ -66,7 +66,7 @@ export default function Projects() {
       image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
       technologies: ['React', 'HTML/CSS', 'JavaScript', 'Environmental APIs'],
       features: ['Environmental Awareness', 'Sustainable Practices', 'Interactive Web App', 'Modern UI/UX'],
-      github: 'https://github.com/kevin-ecotone-webf',
+      github: 'https://github.com/kingcrab9118-beep/Kevin-Ecotone-Web',
       demo: 'https://demo.com',
       category: 'Frontend',
       icon: Globe
