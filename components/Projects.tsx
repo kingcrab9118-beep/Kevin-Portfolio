@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, Code, Database, Smartphone, Globe } from 'lucide-react'
+import { ExternalLink, Github, Code, Database, Smartphone, Globe, Server, Users } from 'lucide-react'
 
 export default function Projects() {
   const containerVariants = {
@@ -28,48 +28,48 @@ export default function Projects() {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, inventory management, and responsive design.',
+      title: 'Kevin Shopify Project',
+      description: 'A comprehensive Shopify project for freelancers, built with Liquid templating language. Features include custom theme development, product management, and e-commerce functionality.',
       image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Tailwind CSS'],
-      features: ['User Authentication', 'Payment Integration', 'Admin Dashboard', 'Responsive Design'],
-      github: 'https://github.com/kingcrab9118-beep/',
+      technologies: ['Liquid', 'HTML/CSS', 'JavaScript', 'Shopify API'],
+      features: ['Custom Theme Development', 'Product Management', 'E-commerce Integration', 'Responsive Design'],
+      github: 'https://github.com/kingcrab9118-beep/KevinShopify',
       demo: 'https://demo.com',
-      category: 'Full Stack',
+      category: 'Frontend',
       icon: Globe
     },
     {
-      title: 'Task Management App',
-      description: 'A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
+      title: 'Mock-Up Server',
+      description: 'A mock-up server for microservices architecture, built with TypeScript. Provides API simulation and testing capabilities for distributed systems.',
       image: 'https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['Vue.js', 'JavaScript', 'Node.js', 'PostgreSQL'],
-      features: ['Real-time Updates', 'Drag & Drop', 'Team Collaboration', 'Mobile Responsive'],
-      github: 'https://github.com/kingcrab9118-beep/',
-      demo: 'https://demo.com',
-      category: 'Full Stack',
-      icon: Code
-    },
-    {
-      title: 'Weather Dashboard',
-      description: 'A comprehensive weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['React', 'HTML/CSS', 'JavaScript', 'Weather API'],
-      features: ['Location Services', 'Interactive Charts', '7-Day Forecast', 'Weather Alerts'],
-      github: 'https://github.com/kingcrab9118-beep/',
-      demo: 'https://demo.com',
-      category: 'Frontend',
-      icon: Smartphone
-    },
-    {
-      title: 'Blog CMS',
-      description: 'A content management system for blogs with rich text editing, image uploads, SEO optimization, and admin panel.',
-      image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
-      technologies: ['Django', 'Python', 'PostgreSQL', 'HTML/CSS'],
-      features: ['Rich Text Editor', 'SEO Optimization', 'Admin Dashboard', 'Image Management'],
-      github: 'https://github.com/kingcrab9118-beep/',
+      technologies: ['TypeScript', 'Node.js', 'Express', 'Microservices'],
+      features: ['API Simulation', 'Microservices Testing', 'Mock Data Generation', 'RESTful APIs'],
+      github: 'https://github.com/kingcrab9118-beep/Mock-Up-server',
       demo: 'https://demo.com',
       category: 'Backend',
-      icon: Database
+      icon: Server
+    },
+    {
+      title: 'Collin Suckow Project',
+      description: 'A collaborative project with Collin Suckow focusing on modern web development practices and full-stack implementation.',
+      image: 'https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      technologies: ['React', 'Node.js', 'MongoDB', 'JavaScript'],
+      features: ['Collaborative Development', 'Modern Web Practices', 'Full-Stack Implementation', 'Team Collaboration'],
+      github: 'https://github.com/collin-suckow',
+      demo: 'https://demo.com',
+      category: 'Full Stack',
+      icon: Users
+    },
+    {
+      title: 'Kevin Ecotone Web',
+      description: 'An eco-friendly web application focusing on environmental awareness and sustainable practices. Built with modern web technologies.',
+      image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80',
+      technologies: ['React', 'HTML/CSS', 'JavaScript', 'Environmental APIs'],
+      features: ['Environmental Awareness', 'Sustainable Practices', 'Interactive Web App', 'Modern UI/UX'],
+      github: 'https://github.com/kevin-ecotone-webf',
+      demo: 'https://demo.com',
+      category: 'Frontend',
+      icon: Globe
     }
   ]
 
